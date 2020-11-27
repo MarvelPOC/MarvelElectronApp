@@ -1,0 +1,4 @@
+export const searchHistoryConstants={
+    GET_HISTORY_REQUEST:'GET_HISTORY_REQUEST',
+    CLEAR_HISTORY_REQUEST:'CLEAR_HISTORY_REQUEST',
+}

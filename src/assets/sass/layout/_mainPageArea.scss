@@ -1,0 +1,7 @@
+.main-page-area{
+
+    width:calc( 100% - ( 3 * #{ $page-gutter-horizontal}) - #{$right-panel-width} - #{$left-panel-width});
+    float: left;
+    height: $main-page-height;
+
+}

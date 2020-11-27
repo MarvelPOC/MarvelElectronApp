@@ -1,0 +1,101 @@
+.right-side-menu{
+  width: $right-panel-width;
+  float: left;
+  min-height: $main-page-height; 
+  margin:0.8rem $page-gutter-horizontal;
+
+  .right-menu
+  {
+    &__tab{
+     
+      border:1px solid $color-black;
+      border-bottom:1px solid transparent;
+      margin-right: .3rem;
+      padding: .25rem;
+      width:30%;
+      height: 3rem;
+      font-size: 1rem;
+      padding-top: .5rem;
+     padding-bottom: .4rem;
+     padding-left: 1rem;
+     padding-right: 1rem;
+      border-top-left-radius: .3rem;
+      border-top-right-radius: .3rem;
+      &--active{
+        background-color: $color-primary;
+        color:$color-white;
+        border:none;
+      }
+    outline:none;
+    
+    }
+
+    &__body{
+      border:1px solid $color-primary;
+      height:$main-page-height - 16vh;
+
+      &-content{
+        height: 82%;
+        background-color:$color-blank-bkg;
+      }
+      &-btn-area{
+        padding: 1rem 3rem;
+        background-color:$color-gray;
+        height: 18%;
+        div{
+          margin-bottom: 1rem;
+        }
+      }
+    }
+
+
+    &__heading{
+      background-color: $color-primary;
+      height:3rem;
+      padding:.8rem 1rem;
+      
+      color:$color-white;
+      font-weight: 700;
+      font-size: 1.1rem;
+    
+    }
+
+    &-footer{
+      padding: .2rem .8rem;
+     height: 4.3rem;
+      border: 1px solid $color-primary;
+      border-top: none;
+
+      &__radio-grp{
+
+        list-style: none;
+        input[type="checkbox"]
+        {
+           vertical-align: middle;
+           margin:.2rem;
+           &[readonly] {
+            pointer-events: none;       
+          }
+          
+        }
+        label{
+          display: inline-block;
+          vertical-align: middle;
+        }
+     
+      }
+
+    &__btn{
+      height: 3.8rem;
+      font-size: 1.2rem;
+      border: 1px solid $color-primary;
+      text-align: center;
+      display: inline-block;    
+     }
+
+    }
+
+
+
+  }
+}

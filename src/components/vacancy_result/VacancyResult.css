@@ -1,0 +1,261 @@
+.vacancy-result-screen {
+    display: flex;
+    line-height: 1rem;
+    width: 1000px;
+}
+
+.vacancy-result-screen .side-option-area .rght-option-btn-grp {
+    width: 290px !important;
+    height: 538px !important;
+}
+
+.vacancy-result-screen .side-option-area .rght-option-bot-content {
+    height: 93px !important;
+}
+
+
+.vacancy-result-screen .side-option-area .rght-option-middle {
+    height: 350px !important;
+}
+
+.vacancy-result-screen .side-option-area .middle-footer button {
+    padding: 0px !important;
+}
+
+.vacancy-result-screen .side-option-area .rght-option-bottom {
+    height: 10px !important;
+}
+
+.vacancy-result-screen .side-option-area .rght-option-bot-footer {
+    height: 39px !important;
+    padding: 12px 0px 3px 10px !important;
+}
+    
+
+.vacancy-result-screen input:focus{
+    background:#FFFF94;
+}
+
+
+.vacancy-result-screen .p-button{
+    padding-top: 0px !important;
+    border-radius: 0px !important;
+    cursor: default !important;
+}
+.vacancy-result-screen .result-reverse-button {
+    width: 78px;
+}
+
+.vacancy-result-screen .p-button-text{
+    padding: .1em 0.25em!important;
+    font-size: 1.4rem !important;
+}
+
+.vacancy-result-screen .marvel-primary{
+    color: #000000;
+    background-image: linear-gradient(#F2F7FB, #FFFFFF, #C0D7EE);
+    border: 1px solid #A9A9A9;
+}
+.vacancy-result-screen .marvel-primary:hover{
+    color: #000000 !important;
+}
+.vacancy-result-screen img{
+    cursor: default;
+}
+
+  
+.vacancy-result-screen .pi{
+    font-size: .8em;
+}
+
+.vacancy-result-screen .p-inputtext{
+    font-size: 1rem;
+    border-radius: 0px;
+    padding: 2px;
+}
+
+
+
+.vacancy-result-screen .main-section{
+    border: 1px solid #008080;
+    border-radius: 2px;
+    -webkit-box-shadow: 2px 2px 10px 2px #E2EBF4;
+    box-shadow: 2px 2px 10px 2px #E2EBF4;
+}
+
+
+.vacancy-result-screen .search-title {
+    height: 30px;
+    color: #ffffff;
+    background: #009C9C;
+    padding: 2px 4px;
+    display: flow-root;
+    position: relative;
+}
+
+  
+.vacancy-result-screen .search-title .header-lbl {
+    margin-left: 8px;
+    margin-top: 0.5em;
+}
+.vacancy-result-screen .search-title .header-lbl label {
+    font-size: 2rem;
+    font-weight: 600;
+}
+  
+.vacancy-result-screen .header-icons .star-icon {
+    margin-left: 10px !important;
+    height: 24px;
+}
+.vacancy-result-screen .header-icons .que-icon {
+    margin-left: 10px !important;
+    height: 24px;
+}
+  
+.vacancy-result-screen .header-icons {
+    float: right;
+    margin-right: 10px;
+}
+.vacancy-result-screen .header-lbl {
+    float: left;
+}
+
+.vacancy-result-screen .vacancy-result-full-container {
+    background: #efefef;
+    float: left;
+    height: 540px;
+}
+
+
+.vacancy-result-screen .vacancy-result-main-container {
+    width: 685px;
+    float: left;
+    border: 1px solid #efefef;
+    margin-left: 5px;
+    margin-right: 14px;
+    margin-top: 5px;
+    height: 534px;
+}
+
+.vacancy-result-screen .side-option-area {
+    width: 290px;
+    float: left;
+}
+
+.vacancy-result-main-footer {
+    width: 100%;
+}
+
+.vacancy-result-data-header {
+    float: left;
+}
+
+.vacancy-result-screen .route-diaplay-box{
+    background-color:#315284;
+    color: white;
+    width: 155px;
+    height: 29px;
+    text-align: center;
+    padding-top: 9px;
+    font-weight: 600;
+    float: left;
+    font-size: 1.6rem;
+}
+.vacancy-result-screen .reverse-button-container {
+    float: left;
+    padding-top: 2px;
+    padding-left: 4px;
+    height: 29px;
+    width: 86px;
+    background-color: #efefef;
+    border-top: 1px solid #c6c6c6;
+
+}
+.vacancy-result-screen .carousel-container {
+    float: right;
+    width: 442px;
+}
+.vacancy-result-screen .result-display-container {
+    padding-top: 30px !important;
+    background: #c6c6c6;
+    
+}
+
+.vacancy-result-screen .p-carousel-prev span {
+    width: 60% !important;
+    float: left !important;
+}
+
+.vacancy-result-screen .p-carousel-next span {
+    width: 60% !important;
+    float: right !important;
+}
+
+.arrow-left {
+    width: 0; 
+    height: 0; 
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent; 
+    
+    border-right:5px solid black; 
+    padding-right: 5px;
+  }
+
+  .arrow-right {
+    width: 0; 
+    height: 0; 
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    
+    border-left: 5px solid black;
+    padding-left: 5px;
+  }
+
+  .vacancy-result-screen .vacancy-result-footer .p-button{
+    height: 25px;
+  }
+
+  .vacancy-result-screen .vacancy-result-footer .p-button-text{
+    padding: 0px !important;
+ }
+ .vacancy-result-screen .vacancy-result-main-footer .footer-area {
+    padding-left: 5px !important;
+    padding-right: 3px !important;
+    height: 55px;
+ }
+
+ 
+
+ .vacancy-result-screen .vacancy-result-main-footer .footer-area .result-close-button {
+     width: 150px;
+     margin-top: 16px;
+ }
+
+ .vacancy-result-screen .vacancy-result-main-footer .footer-area .urg-res-button {
+    width: 165px;
+    margin-top: 10px;
+    cursor: no-drop !important;
+}
+.vacancy-result-screen .vacancy-result-main-footer .footer-area .open-res-button {
+    width: 120px;
+    margin-top: 10px;
+    cursor: no-drop !important;
+}
+.vacancy-result-screen .vacancy-result-main-footer .footer-area .cust-info-button {
+    width: 120px;
+    margin-top: 10px;
+    cursor: no-drop !important;
+}
+
+.vacancy-result-screen .vacancy-result-main-footer .footer-area .res-main-conf-button{
+    cursor: no-drop !important;
+}
+
+.vacancy-result-screen .vacancy-result-main-footer .footer-area .btn-select-main {
+    height: 35px !important;
+    width: 145px !important;
+}
+
+.vacancy-result-screen .vacancy-result-main-footer .footer-area .btn-select-main .p-button-text {
+    font-size: 1.8rem !important;
+}

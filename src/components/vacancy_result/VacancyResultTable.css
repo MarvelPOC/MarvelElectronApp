@@ -1,0 +1,655 @@
+
+.vacancy-result-table-container {
+    width: 100%;
+}
+
+.result-table-container {
+    background: white;
+    height: 397px;
+    width: 665px;
+    float: left;
+    border: 1px solid #a7a6a6;
+    border-right: 0px ;
+}
+.result-table-scroll-container {
+    background: white;
+    height: 397px;
+    float: right;
+    width: 17px;
+    background-color: #efefef;
+    border: 1px solid #a7a6a6;
+    border-left: 0px ;
+}
+.vacancy-result-table-container .p-datatable {
+    font-family: "Noto Sans JP", sans-serif !important;
+    font-size: 1.3rem !important;
+}
+
+body .p-datatable .p-datatable-tbody > tr:nth-child(even) {
+    background:white !important;
+}
+
+body .p-datatable .p-datatable-tbody > tr:nth-child(odd) {
+    background: #e7e7e7 !important;
+}
+
+.vacancy-result-table-footer {
+    float: left;
+    width: 100%;
+    background: #c6c6c6;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+}
+
+.vacancy-result-table-footer .p-button{
+    height: 22px;
+}
+
+
+
+.vacancy-result-table-footer-button {
+    float: left;
+}
+
+.vacancy-result-table-footer-button .reSearch-button {
+    width: 90px;
+}
+.vacancy-result-table-footer-button .reSearch-button .p-button-text{
+   padding: 0px !important;
+}
+.vacancy-result-table-footer-button .connection-flight-button {
+    width: 130px;
+    margin-left: 5px;
+}
+.vacancy-result-table-footer-button .connection-flight-button .p-button-text{
+   padding: 0px !important;
+}
+
+.vacancy-result-table-footer-button .nextprev-flight-button{
+    width: 60px;
+    margin-left: 5px;
+}
+.vacancy-result-table-footer-button .nextprev-flight-button .pi {
+    padding-left: 3px !important;
+}
+.vacancy-result-table-footer-button .nextprev-flight-button .p-button-text{
+    padding: 0px !important;
+    padding-left: 13px !important;
+}
+
+.vacancy-result-table-footer-button .nextprev-yen-button{
+    width: 60px;
+    margin-left: 5px;
+}
+.vacancy-result-table-footer-button .nextprev-yen-button .pi {
+    padding-left: 5px !important;
+}
+.vacancy-result-table-footer-button .nextprev-yen-button .p-button-text{
+    padding: 0px !important;
+    padding-left: 9px !important;
+}
+.vacancy-result-table-footer-button .paxlist-button{
+    width: 105px;
+    margin-left: 5px;
+    cursor: no-drop !important;
+}
+.vacancy-result-table-footer-button .paxlist-button .p-button-text{
+    padding: 0px !important;
+}
+.vacancy-result-table-footer-button-dum .res-foot-dum-button{
+    width: 30px;
+    margin-left: 5px;
+}
+.vacancy-result-table-footer-button-dum .res-foot-dum-button .p-button-text{
+    padding: 0px !important;
+    padding: 0px !important;
+    border-top: 4px solid #c6c6c6;
+    border-bottom: 4px solid #c6c6c6;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 9px !important;
+}
+.vacancy-result-table-footer-button-dum {
+    float: left;
+}
+
+
+.vacancy-result-table-footer-button .p-disabled, .vacancy-result-table-footer-button .p-component:disabled {
+    opacity: 1 !important;
+    color: #c7d4e7 !important;
+    background-image: none !important;
+    background-color: #efefef;
+    border: 1px solid #A9A9A9 !important;
+}
+
+
+
+
+.result-footer-button-container {
+    padding-left: 5px;
+}
+
+.result-footer-icon-container {
+    margin-top: 4px;
+    float: left;
+    margin-left: 5px;
+}
+
+.vacancy-result-table-footer-button .pi {
+    font-size: 13px;
+}
+
+.result-footer-icon {
+    width:15px;
+    height:15px;
+}
+
+.text-align-center {
+    text-align:center;
+}
+
+
+.result-SlNo-column {
+    text-align:center;
+    padding-left: 13px !important;
+    padding-bottom: 15px !important;
+    color: black;
+} 
+.result-normal-column-header {
+    float: left;
+    padding-left: 2px;
+    color: black;
+    padding-top: 5px;
+    
+}
+
+
+.result-flightNo-column {
+    text-align:left;
+    padding-left: 4px !important;
+}
+
+
+
+.result-flightNoModelNo-column-span {
+    color: blue;
+    text-decoration: underline;
+    min-height: 8px;
+}
+
+
+.result-route-column {
+    text-align:left;
+    width: 160px;
+    padding-left: 4px !important;
+    padding-right: 2px !important;
+    color: black;
+}
+
+
+.result-airport-column-div {
+    width: 100%;
+    float: left;
+    margin: 2px;
+}
+
+.result-airport-column-code {
+    width: 25%;
+    font-weight: bold;
+    margin-right: 8px;
+    float: left;
+    
+}
+
+.result-airport-column-name {
+    float: left;
+    line-break: anywhere;
+    
+}
+
+.result-airport-column-name-jp {
+   width: 45%;
+}
+
+.result-airport-column-name-en {
+    width: 68%;
+}
+
+.font-color-blue {
+    color: blue;
+}
+
+.font-color-violet {
+    color: violet;
+}
+
+.font-color-red {
+    color: red;
+}
+
+.result-time-column {
+    text-align:left;
+    padding-left: 4px !important;
+    color: black;
+}
+
+
+.result-time-column-div {
+    width: 100%;
+    float: left;
+    margin: 2px;
+    
+}
+
+.result-model-column {
+    text-align:left;
+    padding-left: 4px !important;
+    color: black;
+}
+
+
+
+
+.result-fare-column {
+    text-align:left;
+    padding: 0px !important;
+    color: black;
+}
+
+
+.vacancy-result-table-container .p-datatable .p-datatable-tbody > tr > td {
+    height: 45px !important;
+    border: 1px solid #a7a6a6;
+}
+
+.fare-header {
+    
+    font-weight: bolder;
+    color: #196ed3;
+}
+.result-SlNo-column-header {
+    width: 4%;
+    text-align:center;
+    
+    
+} 
+.result-flightNo-column-header {
+    text-align:center;
+    width: 10%;
+}
+
+.result-route-column-header {
+    text-align:center;
+    width: 20%;
+}
+.result-time-column-header {
+    text-align:center;
+    width: 7%;
+}
+.result-model-column-header {
+    text-align:center;
+    width: 5%;
+}
+.result-fare-header {
+    width:9%;
+    float: left;
+    margin-top: -25px;
+    padding-left: 3px;
+    color: black;
+    padding-bottom: 3px;
+}
+
+
+.premium-fare-header {
+    float: left;
+    width: 9%;
+    margin-top: -25px;
+    padding-bottom: 3px;
+    margin-left: -3px;
+    
+}
+
+.result-SlNo-column-header-def {
+    width: 4%;
+} 
+.result-flightNo-column-header-def {
+    width: 10%;
+}
+.result-route-column-header-def {
+    width: 20%;
+}
+.result-time-column-header-def {
+    width: 7%;
+}
+.result-model-column-header-def {
+    width: 5%;
+}
+.result-fare-header-def {
+    width:9%;
+    
+}
+.premium-fare-header-def {
+    width: 9%;
+    
+}
+.result-fare-header .result-fare-header-content {
+    font-weight: 400;
+    float: left;
+    font-size: 0.9rem;
+    width: 100%;
+    height: 44px;
+    padding: 3px;
+    text-align: center;
+    display: table;
+    border: 1px solid #a7a6a6;
+}
+
+
+.result-fare-header .result-fare-header-content50 {
+    margin-left: 6px;
+}
+.result-fare-header .result-fare-header-content51 {
+    margin-left: 5px;
+}
+.result-fare-header .result-fare-header-content52 {
+    margin-left: 5px;
+}
+.result-fare-header .result-fare-header-content53 {
+    margin-left: 4px;
+}
+.result-fare-header .result-fare-header-content54 {
+    margin-left: 3px;
+}
+
+.result-fare-header .result-fare-header-content60 {
+    margin-left: 3px;
+}
+.result-fare-header .result-fare-header-content61 {
+    margin-left: 3px;
+}
+.result-fare-header .result-fare-header-content62 {
+    margin-left: 3px;
+}
+.result-fare-header .result-fare-header-content63 {
+    margin-left: 3px;
+}
+.result-fare-header .result-fare-header-content64 {
+    margin-left: 2px;
+}
+.result-fare-header .result-fare-header-content65 {
+    margin-left: 1px;
+}
+
+.result-fare-header .red-background {
+    background: #efdee7 !important;
+}
+
+.result-fare-header  .blue-background {
+    background: #d6e7ff !important;
+}
+
+.result-fare-header .result-fare-header-content .fare-header-label-mod {
+    display:        table-cell;
+    vertical-align: middle;
+    line-break: strict  !important;
+}
+
+
+.premium-fare-header .premium-fare-header-content {
+   
+    float: left;
+    width: 100%;
+}
+
+
+
+.premium-fare-image {
+    padding-left: 8px;
+}
+
+.margin-top-10 {
+    margin-top:10px;
+}
+.margin-top-5 {
+    margin-top:5px;
+}
+
+.result-fare-display-div {
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 5px;
+    
+}
+
+.result-fare-column-div {
+    height: 100%;
+    padding-top: 2px;
+    font-size: 1.2rem;
+}
+.result-fare-column-div:hover {
+    cursor: default;
+}
+.background-light-blue {
+    background: #c6def7;
+}
+
+.background-light-green {
+    background: #c6f7c6;
+}
+
+.background-light-red {
+    background: #ffdec6;
+}
+.premium-column-label {
+    width: 100%;
+    text-align: center;
+}
+
+.premium-column-label img
+{
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+  display: block;
+}
+.premium-column-meal-Info {
+    width: 100%;
+    text-align: center;
+    color: #164a95;
+    font-weight: bold;
+}
+
+.quick-action-container {
+    padding: 2px;
+    padding-left: 1px;
+}
+
+.quick-action-container .clear-button-div {
+    float: left;
+    margin-top: 7px;
+}
+.quick-action-container .clear-button-div .p-button {
+    height: 23px;
+    width: 68px;
+}
+.quick-action-container .clear-button-div .p-button-text {
+   padding: 0px !important;
+}
+
+
+.quick-action-container .quick-fields-div {
+    float: left;
+    margin-top: 5px;
+    padding: 3px;
+    padding-left: 22px;
+    border: 1px solid #b5b5b5;
+}
+
+.quick-action-container .text-input {
+    width: 22px !important;
+}
+
+.quick-action-container .quick-fields-div .line-number  {
+    width: 26px !important;
+}
+
+.quick-action-container .p-inputtext {
+    border-radius: 0px;
+    padding: 2px;
+    height: 20px !important;
+    font-size: 1.2rem !important;
+}
+
+.quick-action-container .confirm-action-div {
+    float: left;
+    margin-top: 2px;
+    padding: 5px;
+    padding-right: 0px;
+    margin-right: -2px;
+}
+
+.quick-action-container .confirm-action-div .text-input {
+    margin-top: -2px;
+}
+
+.quick-action-container .confirm-action-div .reserve-btn {
+    margin-left: 10px;
+    width: 88px;
+    cursor: no-drop !important;
+}
+
+.result-fare-line{
+    width: 14px;
+    border-top: 2px solid rgb(138, 136, 136);
+    position: absolute;
+    margin-left: 23px;
+}
+
+.quick-action-container  .label-element {
+    display: inline-block;
+    margin-right: 4px;
+    width: auto;
+}
+
+
+.quick-action-container .text-input {
+    margin-right: 1px;
+    
+}
+
+.vacancy-result-table-container .p-datatable .p-datatable-thead > tr > th {
+    border: 0px !important;
+    background: none !important;
+    padding: 0px !important;
+}
+
+.result-table-custom-header {
+    float: left;
+    background: #c6c6c6;
+    width: 665px;
+}
+.result-table-custom-header-dummy {
+    float: right;
+    background: #c6c6c6;
+    width: 18px;
+    height: 22px;
+
+}
+.result-table-header-label {
+    font-weight: bold;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.fare-filter-container {
+    margin-top: 5px;
+    width: 30%;
+}
+
+.fare-filter-container .fare-drop-down {
+    min-width: 250px;
+    margin-left: 5px;
+    border-radius: 0px;
+}
+.fare-filter-container .p-dropdown-trigger[aria-expanded="true"]{
+    background: #FFF794 !important;
+}
+
+.fare-filter-container  .p-inputwrapper-focus{
+    background: #FFF794 !important;
+  }
+.fare-filter-container .p-inputwrapper-focus .p-inputtext{
+      background: #FFF794 !important;
+}
+
+
+
+
+.fare-filter-container .fare-drop-down-option {
+    float: left;
+    margin:.5em .25em 0 0;
+}
+
+.fare-filter-container .p-dropdown-items {
+    border:1px solid black !important;
+    width: 36 px !important;
+}
+
+.fare-filter-container .p-dropdown-panel .p-dropdown-item {
+    font-size: 1.2rem !important;
+    background-color: #ffff94 !important;
+    color: black !important;
+    padding-left: 2px !important;
+    cursor: default !important;
+}
+.fare-filter-container .p-dropdown-panel .p-highlight{
+    background-color: rgba(164, 181, 206, 1) !important;
+    
+}
+
+.fare-filter-container .p-dropdown .p-inputtext {
+    height: 17px !important;
+    font-size: 1.4rem !important;
+    padding-top: 4px;
+    
+}
+.fare-filter-container .p-dropdown  {
+    height: 20px !important;
+    cursor: default !important;
+    
+}
+.fare-filter-container .p-dropdown .p-dropdown-trigger {
+    border-left: 1px solid !important;
+    width: 19px !important;
+    border-radius: 0px !important;
+    background-image: linear-gradient(#F2F7FB, #FFFFFF, #C0D7EE);
+    padding-top: 8px;
+    cursor: default !important;
+}
+
+
+.model-premium-class-indicator {
+    padding-top: 1px;
+    margin-left: -1px;
+    min-height: 12px;
+}
+
+.blured-fare-amount {
+    opacity: 0.5;
+}
+
+.line-height-12 {
+    line-height: 12px !important;
+}
+
+.margin-top-7 {
+    margin-top: 7px !important;
+}
+
+
+.padding-top-10 {
+    padding-top: 10px;
+}

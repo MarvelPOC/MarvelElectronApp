@@ -1,0 +1,92 @@
+.translate-area nav {
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+}
+
+.translate-area .lang-menu {
+  text-align: center;
+  /* font-weight: bold; */
+
+  position: relative;
+}
+.lang-menu .selected-lang {
+  display: inline-block;
+  position: relative;
+  padding: 0rem 0.2rem;
+  line-height: 2;
+  cursor: pointer;
+  color: #ffffff;
+}
+.lang-menu .selected-lang label {
+    display:inline-block;
+    font-size:1rem;
+    
+    margin:.05rem .2rem;
+
+}
+
+.lang-menu .selected-lang img {
+  float: left;
+
+ 
+  width: 3rem;
+  height: 2.3rem;
+}
+
+.lang-menu ul {
+  margin: 0;
+  padding: 0;
+  display: none;
+  background-color: #fff;
+  border: 1px solid #f8f8f8;
+  position: absolute;
+  top: 32px;
+  left: 0px;
+  width: 125px;
+  border-radius: 5px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+}
+
+.lang-menu ul li {
+  list-style: none;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+
+.lang-menu ul li div {
+  text-decoration: none;
+  width: 125px;
+  padding: 5px 10px;
+  display: block;
+  cursor: pointer;
+}
+
+.lang-menu ul li:hover {
+  background-color: #f2f2f2;
+}
+
+.lang-menu ul li div:before {
+  content: "";
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+  margin-right: 10px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.jp:before {
+  background-image: url(https://www.countryflags.io/jp/flat/32.png);
+}
+
+.en:before {
+  background-image: url(https://www.countryflags.io/us/flat/32.png);
+}
+
+.lang-menu:hover ul {
+  display: block;
+}

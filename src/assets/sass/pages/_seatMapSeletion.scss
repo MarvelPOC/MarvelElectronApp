@@ -1,0 +1,79 @@
+.sm-select{
+    &__page{
+        padding:.25rem 0;
+        height:20rem;
+        width:60rem;
+        background-color: $color-gray;
+    }
+
+    &__section{
+        margin:0 2rem;
+        margin-bottom: 2rem;
+    }
+
+    &__print-section{
+        margin:1rem 2rem;
+
+        table{
+             margin: 1rem 0rem;
+             
+             th,td{
+                 padding:.5rem;
+                 width:10rem;
+                 text-align: left;
+                 font-size:1.1rem;
+                 text-transform: capitalize;
+             }
+        }
+    }
+     
+     
+    &__radio-label{
+        font-size: 1.3rem;
+        cursor: pointer;
+        position: relative;
+        padding-left: 2.5rem;
+        // padding-top:-3px;
+    }
+
+    &__radio-input{
+        display:none;
+    }
+
+    &__radio-button{
+
+        height: 2.1rem;
+        width: 2.1rem;
+        border: 3px solid$color-primary;
+        border-radius: 50%;
+        display: inline-block;
+        position: absolute;
+        left:0;
+        top: -1px;
+
+        &::after{
+            position: absolute;
+            content:"";
+            display: block;
+            height:.9rem;
+            width:.9rem;
+            border-radius: 50%;
+            background-color:$color-primary;
+            left:50%;
+            top:50%;
+            transform: translate(-50%,-50%);
+            opacity: 0;
+            transition:opacity .1s;
+        }
+    }
+  
+    &__radio-input:checked ~ &__radio-label &__radio-button:after{
+        opacity:1;
+    }
+    &__btn{
+        height: 3rem;
+        width: 20%;
+        font-size:1.3rem;
+    }
+
+}

@@ -1,0 +1,364 @@
+/*Device specific css*/
+@media (min-width: 768px){
+    .air-search-input{
+        margin-top: 0.1em !important;
+        height: 20px;
+        width: 164px;
+    }
+    .airport-area .cat-box li {
+        padding: 4px 2px 4px 4px;
+        display: block;
+        cursor: pointer;
+        border-bottom: 1px dotted #bbb;
+        position: relative;
+        font-weight: 600;
+        font-size: 1.1rem;
+    }
+    .device-icon{
+        display: none !important;
+    }
+}
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px){
+    .air-search-input{
+        margin-top: 0.1em !important;
+        height: 20px;
+        width: 164px;
+    }
+    .device-icon{
+        display: none !important;
+    }
+    .radio-arrange{
+        margin-left: 179px;
+    }
+    .airport-area .cat-box li {
+        padding: 4px 2px 4px 4px;
+        display: block;
+        cursor: pointer;
+        border-bottom: 1px dotted #bbb;
+        position: relative;
+        font-weight: 600;
+        font-size: 1.1rem;
+    }
+  }
+
+@media only screen and (max-device-width: 480px){
+    .device-icon{
+        display: none!important;
+    }
+    .airport-area .cat-box li {
+        padding: 4px 2px 4px 4px;
+        display: block;
+        cursor: pointer;
+        border-bottom: 1px dotted #bbb;
+        position: relative;
+        font-weight: 600;
+        font-size: 1.1rem;
+    }
+  }
+
+
+/*common  css */
+.font-class {
+    font-size: 1rem;
+}
+
+.airport-component .search-area{
+    margin: 0px 0px 0px 44px;
+}
+.air-serch-modal .p-dialog-content{
+    padding: 1px 8px 1px 8px !important;
+}
+.airport-search-elmnt .p-dialog .p-dialog-content{
+    overflow: hidden;
+}
+.airport-component .search-area .search-btn span{
+    padding: 0.3em 1em !important;
+}
+.airport-component .radio-card{
+    margin-top: 10px;
+}
+
+.airport-area .airport-grid{
+    margin-right: 0rem !important;
+    margin-left: 0rem !important;
+    margin-top: 0rem !important;
+}
+
+.airport-area .sample-layout > div {
+    background-color: #ffffff;
+    text-align: left;
+    border-radius: 4px;
+}
+
+.airport-area .sample-layout {
+    margin: 0;
+}
+
+.airport-area .sample-layout > div {
+    border: 1px solid #ffffff;
+}
+
+.airport-area .country-name{
+    text-align: start !important;
+    background-color: #00737B;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 10px 20px;
+}
+.airport-area .p-radiobutton-label{
+    font-size: 1.2rem;
+}
+.airport-area .country-name >span{
+    margin-left: 1em;
+}
+.airport-area .table-div{
+    padding: 0rem;
+    width: 20%;
+}
+.airport-area .airport-div{
+    padding: 0rem;
+    width: 80%;
+}
+.airport-area .cat-box {
+    float: left;
+    width: 100%;
+    height: 398px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background: #f0f1f4;
+    padding-right: 1px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-bottom: 1px solid #bbb;
+    border-left: 1px solid #bbb;
+    border-top: 1px solid #bbb;
+}
+
+.airport-area .cat-box ul {
+    background: #007B84;
+    color: #fff;
+}
+
+.airport-area .cat-box li:focus {
+    outline: none !important;
+}
+
+.airport-area .cat-box .active {
+    background: #BDCEEF;
+    border-left: none;
+    color: #000000;
+}
+
+.airport-area .cat-box h6, p, ul, li, div, form {
+    margin: 0;
+    padding: 0;
+}
+.airport-area .int-reslut-box {
+    float: left;
+    overflow-y: auto;
+    height: 398px;
+    width: 100%;
+    padding: 2px 2px !important;
+    background: #fff;
+    box-sizing: border-box;
+    border: 1px solid #bbb;
+    overflow-x: hidden;
+}
+
+.airport-area .int-reslut-box h3 {
+    font-weight: bold;
+    padding: 3px 6px;
+    margin-bottom: 1px;
+}
+.airport-area .int-reslut-box ul {
+    margin-bottom: 1px;
+    font-size: .85rem;
+    margin-left: -2px;
+    margin-right: -4px;
+}
+.airport-area .extra-div{
+    height: 19px;
+}
+.airport-area .int-reslut-box ul div {
+    cursor: pointer;
+    vertical-align: top;
+    width: 33.1%;
+    box-sizing: border-box;
+    margin: 0px;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+    margin-right: 1px;
+}
+.airport-area .int-reslut-box ul div li{
+    width: 100%;
+    padding: 4px 2px;
+    cursor: pointer;
+    vertical-align: top;
+    box-sizing: border-box;
+    margin: 0px;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+    font-size: 1.1rem;
+}
+.airport-area .int-reslut-box ul div li label{
+    font-size: .75rem;
+    margin-right: 3px;
+    margin-left: 1px;
+    color: #838383;
+}
+.airport-area .int-reslut-box ul div li:focus {
+    outline: 1px solid #FDFF00;
+    background: #BACEE3 !important;
+    border: 1px solid #FDFF00;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.child-link{
+    padding-left: 1em !important;
+    font-weight: 500 !important;
+}
+
+.airport-input{
+    width: 40px;
+    height: 20px;
+    border-radius: 0px !important;
+    padding: 2px !important;
+}
+.air-disp-element{
+    display: inline-flex;
+}
+.air-modal-btn-element .air-modal-btn{
+    width: 20px !important;
+    height: 20px;
+    border-radius: 0px;
+    border: 1px solid #a9a9a9;
+}
+.airport-inp-text{
+    margin-right: 1px;
+}
+.airport-component .search-title {
+    height: 36px;
+    color: #ffffff;
+    background: #009C9C;
+    padding: 8px 4px;
+    display: flow-root;
+    position: relative;
+    margin: 0px -8px 0px -8px;
+}
+
+.air-serch-modal .p-dialog-content{
+    background: #EFFFFF !important;
+    padding: 0px !important;
+}
+.air-serch-modal .p-dialog-footer{
+    background:#C6C6C6 !important;
+    padding: 4px !important;
+}
+.air-serch-modal .p-dialog-footer #airportSlctBtn:disabled{
+    background-image: linear-gradient(#B1B1B1, #C6C6C6) !important;
+    color:rgb(158, 217, 248);
+    font-weight: 600;
+    border: 2px solid #a9a9a9;;
+}
+
+.air-serch-modal .air-select-btn{
+    padding: 0px 16px;
+    font-size: 0.4rem;
+    background-image: linear-gradient(#659EFF, #0062FF);
+    color: #ffffff;
+    border: 1px solid #a9a9a9;
+}
+.air-serch-modal .square{
+    width: 6px;
+    height: 6px;
+    background: #fff;
+    display: inline-block;
+    margin-right: 4px;
+}
+.air-serch-modal .airport-sub-head{
+    height: 18px;
+    display: block;
+    margin: -2px -4px 0px -2px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.air-serch-modal .airport-sub-head li{
+    background: #00737B;
+    padding: 4px 4px;
+    display: inline-block;
+    width: 33.1%;
+    box-sizing: border-box;
+    display: inline-block;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+    height: 18px;
+    margin-right: .1em;
+    font-size: 1.1rem;
+}
+.air-serch-modal .sub-country-header{
+    color: #000000;
+    margin: -2px -4px 0px -2px;
+    font-weight: 600;
+}
+
+.air-serch-modal .sub-country-header li{
+    background: #EFFFFF !important;
+    padding: 4px 8px !important;
+    display: inline-block;
+    width: 33.1% !important;
+    box-sizing: border-box;
+    display: inline-block;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+    height: 18px;
+    margin-right: .1em !important;
+    font-size: 1.1rem;
+}
+
+.air-serch-modal #airportBackBtn{
+    margin: 4px 2px 2px 2px;
+    height: 24px;
+    width: 98px;
+}
+
+.air-serch-modal #airportBackBtn span{
+    padding: .25em 1em !important;
+}
+
+.air-serch-modal #searchButton{
+    height: 24px;
+    width: 98px;
+}
+.air-serch-modal #searchButton span{
+    padding: .25em 1em !important;
+}
+
+.air-serch-modal #airportSlctBtn span{
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+
+#routerModal #airportModal .p-dialog-content{
+    border-bottom: none;
+}
+
+#routerModal #airportModal .p-dialog-footer{
+    border: 1px solid #000;
+    border-top:none;
+}
+
+#airportModal_header{
+    position: absolute;
+    top: 7px;
+    font-size: 1.3rem;
+    font-weight: 600;
+}

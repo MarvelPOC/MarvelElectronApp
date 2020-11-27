@@ -1,0 +1,165 @@
+.app-btn,.p-button>.app-btn, .app-btn.p-button-text-only>.p-button-text {
+  width: 100%;
+  text-align: center;
+  padding:.2rem 0.5rem;
+  font-weight: 500;
+  
+  font-size: 1rem;
+  cursor:pointer;
+  border:none;
+ outline: none;
+ padding: .25rem .5rem !important;
+
+  transition: all 0.3s ease;
+  outline: none;
+  &--teritiary {
+    height: 2.3rem;
+    font-weight: 700;
+   margin-bottom: .3rem;
+    border: 2px solid $color-teritiary-btn;
+    background-image: linear-gradient(
+      to bottom,
+      $color-white 20%,
+      $color-teritiary-btn 95%
+    );
+    color: $color-primary;
+
+    &:hover {
+      background-image: linear-gradient(
+        to bottom,
+        $color-white 20%,
+        darken($color-header-btn-hover, 10) 95%
+      );
+    }
+    &:focus {
+      border: 2px solid $color-teritiary-btn-focus;
+      background-image: linear-gradient(
+        to bottom,
+        $color-white 20%,
+        darken($color-header-btn-hover, 20) 95%
+      );
+    }
+  }
+  &--rounded {
+    border-radius: 5px;
+  }
+
+  &--orange {
+    border: 2px solid transparent;
+    background-image: linear-gradient(
+      to bottom,
+      $color-orange-btn,
+      lighten($color-orange-btn, 25) 30%,
+      $color-orange-btn
+    );
+    color: $color-black;
+    font-weight: 700;
+
+    &:hover {
+      background-image: linear-gradient(
+        to top,
+        $color-orange-btn,
+        lighten($color-orange-btn, 25) 30%,
+        $color-orange-btn
+      );
+    }
+    &:focus {
+      border: 2px solid $color-orange-btn-focus;
+      background-image: linear-gradient(
+        to top,
+        $color-orange-btn,
+        lighten($color-orange-btn, 25) 30%,
+        $color-orange-btn
+      );
+    }
+  }
+
+  &--white {
+    
+    border: 1px solid $color-primary;
+    background-color: 
+      $color-white;
+     
+    color: $color-black;
+    &:hover {
+      background-color: lighten($color-primary,5);
+      color:white;
+    
+    }
+    &:focus {
+      border: 2px solid $color-primary;
+      background-image: linear-gradient(
+        to top,
+        $color-white,
+        lighten($color-white, 25) 30%,
+        $color-white
+      );
+    }
+  }
+
+  &--secondary {
+    font-size: 1.2rem;
+    &--disabled{
+      font-size: 1.2rem;
+      border: 1px solid $color-secondary-btn-focus;
+      background-image:linear-gradient(to bottom,#F2F7FB, #FFFFFF, #C0D7EE);
+      cursor: no-drop;
+    }
+    outline: 1px solid $color-secondary-btn-focus;
+    transition: all 0.2s;
+/*     background-image: linear-gradient(
+      to bottom,
+      lightBlue,
+      white 20%,
+      white 50%,
+      lightBlue
+    ); */
+
+    background-image:linear-gradient(to bottom,#F2F7FB, #FFFFFF, #C0D7EE);
+
+    &:hover,
+    &:focus {
+      outline: 2px solid $color-secondary-btn-focus;
+  /*     background-image: linear-gradient(
+        to top,
+        lightBlue,
+        white 20%,
+        white 70%,
+        lightBlue
+      ); */
+      background-image:linear-gradient(to top,#F2F7FB, #FFFFFF, #C0D7EE);
+    }
+    &:active {
+
+     
+    }
+  }
+
+  &--primary {
+    border: 2px solid $color-white;
+    border-radius: 3px;
+    transition: all 0.2s;
+    background-image: linear-gradient(
+      to bottom,
+       rgb(21,100,255),
+       rgb(21,145,255) 70%
+    );
+    color:$color-white;
+
+    &:hover,
+    &:focus {
+      border: 3px solid $color-white;
+      background-image: linear-gradient(
+        to top,
+        rgb(21,100,255),
+        rgb(21,145,255) 70%
+      );
+      transform: translateY(-0.1rem);
+      box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+    }
+    &:active {
+      transform: translateY(0.1rem);
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    }
+  }
+}

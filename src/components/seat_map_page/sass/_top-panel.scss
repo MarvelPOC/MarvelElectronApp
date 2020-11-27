@@ -1,0 +1,45 @@
+.panel-heading {
+  background-color: $color-modal-bkg;
+  height: 3.6rem;
+  
+  h2 {
+    font-size: 2.4rem!important;
+    padding-top: .8rem;
+  }
+
+  &-icon--right {
+    padding-right: 1rem;
+    float: right;
+    img {
+      cursor: no-drop;
+      margin: 0rem 0.5rem;
+      margin-top: 0.5rem;
+      height: 2.8rem;
+    }
+  }
+}
+.panel-sub-heading {
+  height: 2rem;
+  font-size: 1.2rem;
+  margin-right: 1rem;
+  .flight-info {
+    display: inline-block;
+    margin-top: 1rem;
+    .cntSpecified {
+      font-size: 1.1rem;
+      margin-top: 0.2rem;
+      
+    }
+  }
+
+  .forest-btn {
+    margin-top: 0.3rem;
+    .app-btn{
+    height: 2.3rem;
+    }
+  }
+
+  .cabin-selection-btn {
+    margin-left: 2.5rem;
+  }
+}

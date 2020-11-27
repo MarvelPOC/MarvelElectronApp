@@ -1,0 +1,55 @@
+html {
+  font-size: 62.5%;
+  line-height: 1.15rem;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  box-sizing: border-box;
+  color: black;
+  font-family: "Noto Sans JP", sans-serif;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.app{
+     position: relative;
+
+}
+
+.heading-primary {
+  color: $color-white;
+  letter-spacing: 1px;
+  font-size: 1.8rem!important;
+  font-weight: 900;
+}
+
+.heading-teritiary {
+  color: $color-primary-light;
+  font-size: 1.4rem!important;
+  font-weight: 900;
+
+  &--light {
+    font-size: 1.2rem!important;
+    font-weight: 500;
+    padding: 0rem 0.25rem;
+  }
+}
+
+.app-container{
+  position: relative;
+  min-height: $main-page-height;
+}
+
+.app-error{
+  color:rgb(240, 66, 66);
+  font-weight: 500;
+  margin-bottom: 1rem;
+}

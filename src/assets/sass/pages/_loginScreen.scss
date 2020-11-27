@@ -1,0 +1,138 @@
+.login-screen
+{
+//    background-image: url(../../assets/img/login-bg.jpg);
+   background:#EFEFEF;
+   height: 90rem;
+   position: relative;
+   background-size: cover;
+  .form
+  {   width: 55rem;
+    border: 2px solid $color-gray-dark;
+    height:52rem;
+    position: absolute;
+    top:20%;
+    left:50%;
+    font-size: 1.2rem;
+    transform:translate(-50%,-20%);  
+    background-color: $color-gray;
+    &-header{
+        width: 100%;
+        position: relative;
+    &__img{ 
+      height: auto;
+      width: 100%;
+    }
+    &__alert{
+        color:red;
+        position: absolute;
+        bottom: -2rem;
+        display: inline-block;
+        padding: .25rem;
+        right:1.5rem;
+
+    }
+    }
+    &__img{
+        position: absolute;
+        right: 1rem;
+        top:20%;
+        height: auto;
+        width:15rem;
+    }
+
+
+    &__body{
+        
+        border:3px solid $color-primary;
+        margin: 0rem 1rem ;    
+    }
+    &__header
+    {  
+        margin-left: 1rem;
+        &-btn{
+            border-top-left-radius: 10px;
+            padding: .25rem 1rem;
+            margin-right: .1rem;
+            background-color:$color-gray;
+            border-bottom: transparent;
+         
+        &--active{
+            background-color:$color-primary;
+            color:$color-white;
+     
+        }
+        }
+
+    }
+
+    &__grp{
+        display: block;
+        margin:1rem;
+        height: 3rem;
+    }
+
+ 
+   &__label{
+     
+       float: left;
+      width: 30%;
+  
+   }
+   input[type="text"],input[type="password"]
+   {
+       background-color: $color-login-input-text;
+   }
+   &__input{
+    width: 60%;
+
+    font:inherit;
+    &--uuid{
+        font-size: 1.2rem;
+        width: 100%;
+    }
+    
+   }
+  
+
+   .user-table{
+    margin: 0rem 1%;
+    width: 98%;
+    border-collapse: collapse;
+    
+    th,td{
+        border:1px solid $color-gray-dark;
+        padding:.1rem .5rem;
+        font-weight: 400;
+      
+    }
+     td:first-child,td:nth-child(2)
+     {
+         text-align: center;
+     }
+
+      td.area-code{
+          background-color:$color-table-area-code;
+      }
+ thead{
+     background-color: $color-primary;
+     color:white;
+     text-align:left;         
+ }
+    // &__heading{}
+    // &__item{}
+     tbody{
+         background-color: white;
+     }
+
+}
+  }  
+  
+  .login-btn{
+      height: 3.3rem;
+      font:inherit;
+      width: max-content;
+      float: right;
+        }
+
+
+}

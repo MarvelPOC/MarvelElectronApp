@@ -1,0 +1,118 @@
+.seat-map-screen__bottom-panel {
+  position: relative;
+  .flight-img-heading {
+    margin-left: 1rem;
+  }
+
+  .flight-img-area {
+    margin-left: 5rem;
+    height: 8rem;
+    width: 8rem;
+    background-image: url(../assets/asr_airplane_mark.png);
+    background-size: cover;
+  }
+
+  .seat-info-table {
+    margin-top:1rem;
+    position: relative;
+
+    table {
+           
+      border-collapse: collapse;
+
+      th,
+      td {
+        width: 10rem;
+        font-size:1.1rem;
+        padding: 0.3rem 1rem;
+        
+        &:not(:first-child){padding-left:1.5rem ;
+      
+        }
+        text-align: center;
+
+      }
+
+     
+
+      tr {
+        &:not(:first-child) {
+          border-bottom: 1px solid $color-gray-dark;
+        }
+        &:last-child {
+          border-bottom: none;
+        }
+
+        &:first-child{
+          th{
+            font-weight: 400;
+          }
+        }
+      }
+    }
+  }
+
+}
+.bottom-info-text {
+  position: absolute;
+  bottom: 0;
+
+  right: 10%;
+
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.fare-mark {
+  vertical-align:middle;
+  height: 1.2rem;
+  margin:0.5rem;
+
+}
+
+.seat-summary-list
+{   position: relative;
+
+    ul{
+    width: 40%;
+    margin-left: 3.5rem;
+    margin-top: .1rem;
+    font-size: 1.1rem;
+    list-style: none;
+   .seat-summary-item{
+        
+       @include clearfix;
+        padding: .1rem;
+        &:not(:last-child){
+        border-bottom: 1px solid $color-gray-dark ;
+        }
+
+        &__heading{
+           float: left;
+          
+        }
+        &__count{
+            float: right;
+            text-align: center;
+            width: 7rem;
+        }
+    }
+}
+}
+
+.seat-count {
+  span.total{
+    float: left;
+  }
+  
+  font-size: 1.1rem !important;
+  &::before{
+    content: '(';
+    float: left;
+  }
+  &::after{
+    content: ')';
+    float: right;
+  }
+
+}

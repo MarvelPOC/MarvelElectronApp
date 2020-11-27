@@ -1,0 +1,59 @@
+.vacancy-result-date-selection {
+    border: 1px solid #00737D;
+    border-top: 2px solid #00737D;
+    border-bottom: 1px solid #00737D;
+    color: black;
+    background: white;
+    width: 100%;
+    height: 28px;
+    min-width: 35px;
+    font-size: 1.1rem;
+    cursor: default !important;
+}
+
+.vacancy-result-screen .p-carousel .p-carousel-content .p-carousel-prev:not(.p-disabled):hover, .vacancy-result-screen .p-carousel .p-carousel-content .p-carousel-next:not(.p-disabled):hover {
+    background-color: #dedede;
+}
+
+
+
+.vacancy-result-screen .p-carousel-content {
+    padding: 0px !important;
+}
+
+.vacancy-result-screen .p-carousel .p-carousel-content .p-carousel-prev, .vacancy-result-screen .p-carousel .p-carousel-content .p-carousel-next {
+    height: 28px;
+    width: 18px;
+    margin: 0px !important;
+    border-top: 2px solid #00737D;
+    border-bottom: 1px solid #00737D;
+    background-color: #dedede;
+    opacity: 0.5;
+}
+.vacancy-result-screen .p-carousel .p-carousel-content .p-carousel-prev {
+    border-left: 2px solid #00737D;
+    border-right: 1px solid #00737D;
+}
+
+.vacancy-result-screen .p-carousel .p-carousel-content .p-carousel-next { 
+    border-left: 1px solid #00737D;
+    border-right: 2px solid #00737D;
+    margin-left: -2px !important;
+}
+
+.vacancy-result-date-selection:hover {
+    cursor: pointer;
+}
+
+.vacancy-result-date-selected {
+    color: #ffffff;
+    background-color: rgb(49, 82, 132);
+}
+
+.vacancy-result-date-day {
+    text-align: center;
+    margin-top: 2px;
+}
+.vacancy-result-date-weekday {
+    text-align: center;
+}

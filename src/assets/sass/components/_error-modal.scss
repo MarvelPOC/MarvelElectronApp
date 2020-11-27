@@ -1,0 +1,94 @@
+.error-modal
+{    
+    position: fixed; /* Stay in place */
+    z-index: 23; /* Sit on top */
+    margin:0rem;
+    left: 5%;
+    top: 30%;
+    height: 20.5rem; /* Full height */
+    width: 80%;
+/*     box-shadow: .1rem .5rem 2rem $color-black; */
+  
+   
+   
+ &__content
+ {
+  background-color: $color-gray;
+  border: 1px solid #000;
+  border-top: none;
+  width: auto; 
+  padding-bottom: 1rem;
+
+ }
+  &__header{
+    position: relative;
+    background-color: $color-error-bkg;
+    height: 3.45rem;
+    color: white;
+    width:inherit;
+    padding-top:.5rem;
+    font-size:1.5rem;
+    padding-left: 6rem;
+    .alert-icon{
+      position: absolute;
+      left:0;
+      top:1%;
+      width: 5rem;
+      height: 5rem;
+    }
+  }
+
+  &__body{
+    margin: 2.2rem 3rem;
+    margin-bottom: 1rem;
+    height: 8rem;
+    padding:.5rem;
+    color:darken(red,3);
+    overflow: auto; /* Enable scroll if needed */
+    background-color: $color-white;
+    border: 1px solid #000;
+  }
+
+  .close{
+      &__bar{
+        padding:.3rem;
+        background-image: linear-gradient(to bottom,darken(#ADC6DE,20), #ADC6DE 80%, lighten(#ADC6DE,5) );
+      height: 2.7rem;
+      width: 100%;
+      border: 1px solid #000;
+      border-bottom: none;
+      border-top-left-radius: 7px;
+      border-top-right-radius: 7px; 
+      }
+      &__icon{
+        cursor: pointer;
+          float: right;
+          padding: 0 .5rem;
+          margin-right: .5rem;
+          font-size: 1.4rem;
+          background-image: linear-gradient(#D67F66, #B03C1C, #D67F66);
+          font-weight: 700;
+          color: $color-white;
+          border: 1px solid #000000;
+          border-radius: 3px;
+   
+      }
+  }
+
+
+  .confirm-btn{
+    height:2.2rem;
+    width:8rem;
+  }
+
+        /* Add Animation */
+     @keyframes animatetop {
+        from {opacity: 0}
+        to { opacity: 1}
+      }
+
+    }
+  
+
+
+  

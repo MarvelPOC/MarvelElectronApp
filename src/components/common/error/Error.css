@@ -1,0 +1,127 @@
+/*error message*/
+.error-element{
+  position: absolute;
+  top: 1px;
+  background: #F9E4E0;
+  color: #FF0000;
+  bottom: 1px;
+  right: 84px;
+  padding: 0px 0px;
+  margin: -3px -1px -1px -1px;
+  scroll-behavior: auto;
+  overflow-y: auto;
+  font-size: 1.2rem;
+  font-weight: 500;
+  overflow-y: scroll !important;
+  width: 342px;
+  }
+.error-label{
+    display: block;
+    padding: 5px;
+    border-top: 1px solid #A9A9A9;
+    font-size: 1.1rem !important;
+    cursor: pointer;
+  }
+.error-label-content{
+    display: block;
+    padding: 8px 8px;
+    font-size: 1.2rem !important;
+    cursor: pointer;
+}
+  .error-element .error-modal-content{
+    color: #FF0000;
+    padding: 0px 16px 0px 0px;
+    border: 1px solid #A9A9A9;
+    margin: 16px 16px 0px 16px;
+    background: #EFEFEF;
+    min-height: 6em;
+  }
+
+.error-element .p-dialog-titlebar-close-icon{
+    font-size: .8em;
+    color: #fff;
+  }
+  
+.error-element .err-titlebar{
+    padding: 0em 1em;
+    height: 30px;
+    background: #D20000;
+    color: #fff;
+    display: flex;
+  }
+
+.error-element .p-dialog .p-dialog-titlebar .p-dialog-title {
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+.error-element .error-icon{
+  color: #FFFF00 !important;
+  position: absolute;
+  left: 0;
+}
+
+.error-element .footer-btn{
+  height: 20px;
+  min-width: 6em;
+  margin-right: 40% !important;
+  margin-top: .4em !important;
+  margin-bottom: .4em !important;
+}
+
+.error-element .footer-btn span{
+  padding: .1em 1em !important;
+}
+.error-element .p-dialog-footer{
+  padding: .2em !important;
+}
+.error-element .al-head-div label{
+  color: #fff;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.error-element .al-head-div{
+    display: inline-block;
+    padding: 10px 0px;
+}
+
+.error-element .error-content{
+  min-width: 28em;
+  background: #EFEFEF;
+}
+
+.error-element .p-dialog .p-dialog-content{
+  border-bottom: none;
+}
+
+.error-element .p-dialog .p-dialog-footer{
+  background: #EFEFEF;
+}
+
+.myToolTip .react-tooltip-lite {
+  border: 1px solid #6085BA !important;
+  width: auto !important;
+  min-width: 300px;
+  margin-left: 54px;
+}
+
+.myToolTipTwo .react-tooltip-lite {
+  border: 1px solid #6085BA !important;
+  width: auto !important;
+  min-width: 400px;
+  margin-left: -54px;
+}
+
+.error-element .p-dialog-footer span{
+  font-size: 1.2rem;
+
+}
+
+#routerModal .error-element .p-dialog-footer{
+  border:1px solid #000;
+  border-top: none;
+}
+
+#routerModal .error-element .p-dialog-content{
+  border-bottom: none;
+}

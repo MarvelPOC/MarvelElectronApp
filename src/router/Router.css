@@ -1,0 +1,82 @@
+#routerModal .p-dialog-content{
+    padding: 0px;
+    border: 1px solid #000;
+    border-top:none;
+    color:#000;
+}
+
+#routerModal .p-dialog-titlebar{
+    padding: 3px 10px;
+    background: #ADC6DE;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border: 1px solid #000;
+    border-bottom: none;
+}
+
+.route-modal-section .p-component-overlay{
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+#routerModal .p-dialog-titlebar-close-icon{
+    font-size: 0.8em;
+    padding: 2px 9px;
+    /*margin-top: -.5rem;*/
+    margin-left: 1rem;
+    background-image: linear-gradient(#D67F66, #B03C1C, #D67F66);
+    font-weight: 900;
+    color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 0 0 0.2em #ADC6DE;
+    box-shadow: 0 0 0 0.2em #ADC6DE;
+}
+
+.route-modal-section .p-dialog{
+    max-height:98% !important;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+   
+}
+.route-modal-class{
+    margin-top: -8px;
+}
+
+.custom.p-dialog-titlebar-close-icon.pi.pi-times{
+margin-bottom: .15rem;
+} 
+.pi-times{
+    cursor:pointer!important;
+}
+
+
+/* Animation */
+/* Center */
+.p-dialog-enter {
+    opacity: 1 !important;
+    transform: none !important;
+}
+
+.p-dialog-enter-active {
+    opacity: 1 !important;
+    transform: none !important;
+    transition:none;
+   
+}
+
+.p-dialog-exit-active {
+    opacity: 0;
+    transform: none !important;
+    transition: none;
+}
+
+#routerModal .p-dialog-titlebar .p-link:focus {
+    outline: 0 none;
+    outline-offset: 0;
+    box-shadow: none;
+}
+
+.calendar-title-icon.p-dialog-titlebar-close.p-link:focus {
+    outline: 0 none;
+    outline-offset: 0;
+    box-shadow: none;
+}

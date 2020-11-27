@@ -1,0 +1,134 @@
+#routerModal #searchHistory .p-dialog-content{
+    border-bottom: none;
+}
+#routerModal #searchHistory .p-dialog-footer{
+    border: 1px solid #000;
+    border-top: none;
+}
+
+.footer-class .footer-label {
+    margin-right: 1em;
+}
+
+.history-container{
+    min-height: 372px;
+    display: inline-block;
+    padding: 0px 12px 12px 12px;
+}
+
+.history-area{
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: normal;
+    color: #333333;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.history-container span{
+    font-size: 1.3rem !important;
+}
+.search-history-area{
+    padding: 0em;
+    background: #EFEFEF;
+}
+
+.search-history .clear-button{
+    margin-top: .3em;
+    margin-bottom: .2em;
+    margin-right: 12px;
+}
+
+.footer-label .search-input{
+    height: 18px !important;
+}
+
+.footer-label .search-input:focus {
+   background:#FFFF94;
+}
+
+.p-datatable{
+    position: initial !important;
+}
+
+.button-link {
+    background: none!important;
+    border: none;
+    padding: 0!important;
+    color: #2222FF;
+    text-decoration: underline;
+    cursor: pointer;
+    outline: none;
+}
+
+.history-modal{
+    border: 1px solid #a9a9a9;
+    width: 21px;
+    height: 20px;
+}
+
+.history-area .p-datatable .p-datatable-thead > tr > th{
+    padding: 0.4em 0.1em;
+    background:#007C84;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+.history-area .p-button.p-button-text-only .p-button-text{
+    padding: .25em 1em;
+}
+
+.history-area .p-dialog .p-dialog-content{
+    padding: 0.4em 1em;
+    overflow: hidden;
+}
+
+.history-area .p-datatable-scrollable-header-box {
+    margin-right: 18px !important;
+}
+
+.history-area  .hist-clear-btn{
+    padding: 0px 8px !important;
+    width: 6.8em !important;
+}
+
+.history-area .p-datatable-scrollable-body{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    min-height: 362px;
+}
+
+.history-area .p-datatable .p-datatable-tbody > tr > td {
+    padding: .1em .1em !important;
+}
+
+.history-area .p-dialog .p-dialog-footer{
+    background: #C6C6C6;
+}
+
+.history-area .p-datatable .p-datatable-tbody > tr > td {
+    border: 1px solid #FFFFFF;
+}
+.history-area .p-datatable .p-datatable-scrollable-header, body .p-datatable .p-datatable-scrollable-footer {
+    background: #007B84 !important;
+}
+
+.history-area .p-datatable-scrollable{
+    border: 1px solid #85949B;
+    height: 402px;
+    background: #ffffff;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+}
+
+.history-area .p-datatable .p-datatable-thead > tr > th {
+    border-top: 0px;
+    border-bottom: 0px;
+}
+
+.history-area .p-datatable .p-datatable-tbody > tr:nth-child(odd){
+    background: #FFFFFF !important;
+}
+
+.history-area .p-datatable .p-datatable-tbody > tr:nth-child(even){
+    background: #EFEFEF !important;
+}

@@ -1,0 +1,574 @@
+.p-datepicker {
+    border : 1px solid black !important;
+    padding: 1px !important;
+    background: #EFEFEF !important;
+    border-radius: 0px !important;
+    border-top-right-radius: 5px !important;
+    border-top-left-radius: 5px !important;
+    
+}
+.p-datepicker .p-button {
+    cursor: default !important;
+    height: 22px !important;
+    margin-top: -1px !important;
+}
+.p-datepicker .p-radiobutton {
+    cursor: default !important;
+}
+
+.p-datepicker .cal-nav-button {
+    cursor: default !important;
+    height: 22px !important;
+}
+
+
+
+
+.calendar-close-bar {
+    background-image: linear-gradient(#95aecb,#b5ceef);
+    float: left;
+    width: 100%;
+    padding-right: 5px;
+    height: 21px;
+    border-top-right-radius: 5px !important;
+    border-top-left-radius: 5px !important;
+}
+.calendar-close-bar .calendar-title-icon {
+    cursor: default;
+}
+
+
+.calendar-close-bar .calendar-title-icon:hover {
+    color: black;
+    
+}
+
+.calendar-title-bar {
+    height: 35px;
+    color: #ffffff;
+    background: #009C9C;
+    padding:11px 5px;
+    display: flow-root;
+    position: relative;
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+
+.calendar-main-container {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 25px;;
+}
+
+.calendar-navigator-container {
+    padding-left: 15px;
+    padding-right: 13px;
+    position: relative;
+}
+
+.p-datepicker .p-datepicker-prev {
+    left: auto !important;
+}
+
+.cal-nav-button-conatiner .pi {
+    font-size: 1.5rem;
+}
+
+.p-datepicker span.p-datepicker-year {
+   padding-left: 8px;
+}
+
+.p-datepicker table {
+    font-size: .7em !important;
+    table-layout: fixed;
+    min-width: 180px !important;
+    height: 140px !important;
+    border-bottom: 2px solid #738494 !important;
+    margin: 0px !important;
+}
+.p-datepicker table td {
+    padding: 0px !important;
+    border: 1px solid #738494 !important;
+    background: white;
+    height: 10px !important;
+  
+}
+.p-datepicker td:nth-child(7) {
+    border-right: 2px solid #738494 !important;
+    color:blue !important;
+}
+
+.p-datepicker td:nth-child(1) {
+    color:red !important;
+}
+
+
+
+body .p-datepicker .p-datepicker-header {
+    background: none !important;
+    padding-bottom: 1px !important;
+}
+
+.p-datepicker .p-datepicker-footer {
+    padding: 5px;
+    padding-right: 14px;
+    padding-left: 14px;
+}
+
+
+
+.calendar-title-bar .calendar-title {
+    margin: 0;
+    float: none;
+    font-weight: 700;
+}
+
+
+
+.p-datepicker.p-datepicker-multiple-month .p-datepicker-group {
+    padding-right: 0.3em !important;
+    padding-left: 0.3em !important;
+    padding-top: 5px !important;
+    
+}
+
+.navigator-button-container {
+    padding-left: 5px;
+}
+
+.navigator-button {
+    padding-left: 5px;
+}
+
+.cal-nav-button {
+    color: black !important;
+    text-align: center !important;
+    width: 39px !important;
+    border-radius: 0px !important;
+}
+
+.cal-nav-button pi{
+    padding-top: 2px;
+}
+
+
+.p-datepicker-prev-icon-double {
+	margin-left: -0.9em !important;
+}
+.p-datepicker-div-margin-left {
+	margin-left: 45px !important;
+}
+
+.p-datepicker-div-margin-right {
+	margin-right: 45px !important;
+}
+
+.cal-nav-button-conatiner {
+   position: relative;
+}
+
+body .p-datepicker table td > span {
+    border-radius: 0px !important;
+    border: 2px solid white ;
+    padding: 0px !important;
+    height: 19px !important;
+    padding-top: 2px !important;
+    cursor: default !important;
+}
+
+.p-datepicker-today .p-highlight {
+    border: 2px solid #ff0000 !important;
+    color: inherit !important;
+}
+
+.p-datepicker-otherday .p-highlight {
+    background-color:inherit !important;
+    border: 2px solid #ff0000 !important;
+    color: inherit !important;
+}
+
+.p-datepicker-otherday .p-blue-highlight {
+    background-color:inherit !important;
+    border: 2px solid blue !important;
+    color: inherit !important;
+}
+
+.p-datepicker-today .p-blue-highlight {
+    border: 2px solid blue !important;
+    color: inherit !important;
+}
+
+.p-datepicker-otherday {
+    height: 10px;
+}
+
+
+
+
+.p-datepicker .footer-area {
+    padding: 4px !important;
+    padding-left: 10px !important;
+    padding-right: 12px !important;
+}
+
+.p-datepicker .footer-area .btn-select-main {
+    height: 34px !important;
+    width: 150px !important;
+}
+
+.p-datepicker-today >span {
+    background-color:#ffa57b !important;
+    border: 2px solid #ffa57b !important;
+}
+
+.calender-action-area{
+    width: 100%;
+    min-height: 122px;
+    padding-left: 5px;
+    padding-right: 3px;
+}
+.calender-action-area .p-dropdown-items {
+    width: 36 px !important;
+}
+
+.calender-action-area .p-dropdown-panel .p-dropdown-item {
+    font-size: 1.2rem !important;
+    background-color: #ffff94 !important;
+    color: black !important;
+    padding-left: 2px !important;
+    cursor: default !important;
+}
+.calender-action-area .p-dropdown-panel .p-highlight{
+    background-color: rgba(164, 181, 206, 1) !important;
+    
+}
+
+
+.calender-action-area .action-header {
+    float: left;
+    width: 100%;
+    max-height: 40px;
+}
+.calender-action-area .action-header .header-label {
+    font-weight: bold;
+    width: 30%;
+    float: left;
+}
+
+.calender-action-area .p-float-label > label {
+    margin-top: -1.2em !important;
+    font-size: 1.2rem !important;
+    color: black !important;
+    margin-left: -3px !important;
+    min-width: 60px !important;
+}
+.calender-action-area .p-dropdown .p-inputtext {
+    height: 18px !important;
+    font-size: 1.6rem !important;
+    padding-right: 0px !important;
+    width: 100% !important;
+    
+}
+.calender-action-area .p-dropdown  {
+    height: 20px !important;
+    cursor: default !important;
+    
+}
+.calender-action-area .p-dropdown .p-dropdown-trigger {
+    border-left: 1px solid !important;
+    width: 19px !important;
+    border-radius: 0px !important;
+    background-image: linear-gradient(#F2F7FB, #FFFFFF, #C0D7EE);
+    padding-top: 8px;
+    cursor: default !important;
+}
+
+.arrow-down {
+    width: 0; 
+    height: 0; 
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    
+    border-top: 6px solid black;
+  }
+
+
+
+
+.calender-action-area .p-inputtext {
+    border-radius: 0px;
+    padding: 2px;
+    height: 20px !important;
+    font-size: 1.2rem !important;
+    width: 65px;
+}
+
+
+
+
+.calender-action-area .radio-selection-area .p-radiobutton-label {
+    font-size: 1.3rem !important;
+    padding-top: 0px !important;
+    padding-right: 4px !important;
+}
+
+.calender-action-area .radio-selection-area .p-radiobutton-label-higlight {
+    border: 1px solid #9cb5ce;
+}
+
+
+.radio-selection-area .p-radiobutton-label {
+    padding-top: 5px !important;
+}
+
+
+.calender-action-area .action-header .header-label {
+    width: 250px;
+}
+.calender-action-area .action-header .pi {
+    font-size: 1em;
+    font-weight: bold;
+    color: #008080;
+}
+.header-label .p-icon-label {
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-left: 6px;
+    color: #00a09b;
+  }
+  .calender-action-area {
+      font-size: 1.3rem !important;
+}
+.cal-header-label-span {
+    float: left;
+    margin-top: 14px;
+}
+.cal-header-label-icon {
+    float: left;
+    
+}
+.calender-action-area .action-header .header-button {
+    margin: 0px;
+    width: 30%;
+    float: right;
+    margin-top: 5px;
+}
+.calender-action-area .action-header .header-button .p-button-raised {
+    float: right;
+}
+
+.calender-action-area .action-date-selection-area {
+    float: left;
+    width: 100%;
+    max-height: 140px;
+    padding-top: 15px;
+    padding-bottom: 3px;
+}
+.calender-action-area .action-calcdate-selection-area {
+    float: left;
+    width: 100%;
+    margin-top: 15px;
+
+}
+
+.calender-action-area .radio-selection-area {
+    float: left;
+    width: 25%;
+    padding-top: 5px;
+}
+.calender-action-area .date-input-area {
+    float: left;
+    width: 25%;
+    
+}
+.calender-action-area .date-input {
+    float: left;
+    width: 68px;;
+}
+
+.calender-action-area .operator-input {
+    float: left;
+    width: 40px;
+}
+
+.calender-action-area .day-input {
+   float: left;
+   width: 25px;
+   margin-left: -2px !important;
+}
+
+.cal-search-input-date {
+    height: 16px !important;
+    margin-right: 2px;
+    width: 58px;
+    
+}
+
+.cal-action-button {
+    margin-left: 5px !important;
+}
+
+.cal-search-input-ope {
+    height: 16px !important;
+    margin-right: 2px;
+    border-radius: 0px !important;
+   
+    
+}
+
+.cal-search-input-addval {
+    width: 30px !important;
+   
+}
+
+.cal-calc-button {
+    margin-right: 10px;
+    margin-top: -2px;
+}
+
+.cal-search-input-res {
+    margin-top: -2px !important;
+    width: 40px !important;
+   
+}
+
+.calender-action-area .result-span-area {
+    margin-top: -2px;
+
+}
+
+.calender-action-area .p-button-text-only .p-button-text {
+    padding: 0px !important;
+    font-size: 1.3rem !important;
+    width: 75px !important;
+}
+
+.p-datepicker .calendar-confirm-button  {
+    height: 32px !important;
+    width: 141px;
+    padding-left: 11px;
+    
+}
+
+.p-datepicker .cal-footer-close-div {
+    padding-top: 5px;
+}
+
+.p-datepicker .calendar-confirm-button .p-button-text {
+    padding: .1em 0.25em!important;
+    font-size: 1.7rem !important;
+    width: 120px !important;
+    
+}
+
+
+
+
+.calender-action-area .today-button-div {
+    padding-left: 15px;
+}
+
+.search-input{
+    margin-top: 0.1em !important;
+    margin-left: 12px !important;
+    height: 30px !important;
+}
+
+
+
+.search-button{
+    margin-top: 0.1em !important;
+    margin-left: 12px !important;
+}
+
+.calender-action-area  .date-button-area {
+    float: left;
+    width: 40%;
+    margin-left: -4px;
+    
+}
+
+.calender-action-area  .day-button-area {
+    float: left;
+    width: 25%;
+    padding-top: 2px;
+    
+}
+
+
+
+.calendar-date-search-Input{
+    margin-top:3px;
+    width: 29% !important;
+    
+
+}
+.calendar-date-search-button{
+    float: right;
+    width:110px !important;
+    margin-top: 1px;
+    margin-left: 10px;
+
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+
+.calendar-no-border {
+    border-right: 0px !important;
+    border-left: 0px !important;
+}
+.calendar-font-red {
+    color: red;
+}
+
+.calendar-font-blue {
+    color: blue;
+}
+
+.custom-cal-width{
+    width: 20px !important;
+    height: 20px !important;
+    border-radius: 0px !important;
+    border: 1px solid #a9a9a9 !important;
+    outline: none;
+    cursor: pointer;
+}
+
+.calender-action-area .p-radiobutton-box {
+    margin-top: -1px;
+}
+
+.calendar-optionl-label-img {
+    padding-top: 5px;
+}
+
+.p-datepicker .calendar-close-button .p-button-text {
+    padding: 0px !important;
+    font-size: 1.3rem !important;
+}
+
+.p-datepicker .calendar-close-button {
+    width: 50px !important;
+}
+
+.p-datepicker .footer-area button {
+    min-width: 85px !important;
+}
+
+.p-datepicker .cal-error-field {
+    color: #ff0000 ;
+    background: rgba(255, 0, 0, 0.1) ;
+}
+
+.p-datepicker  .error-element {
+    right: 2px !important;
+}
+
+/*for disable animation*/
+.p-input-overlay{
+    transition: none !important;
+} 

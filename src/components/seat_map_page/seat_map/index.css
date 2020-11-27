@@ -1,0 +1,44 @@
+.tabu {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.heading {
+  text-align: center;
+}
+.rows {
+  /* flex: 1 0 35px; */
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  font-size: 14px;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.rowsBig {
+  flex: 1 0 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  font-size: 14px;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.area {
+  width: 20px;
+  height: 20px;
+  text-align: right;
+  display: inline-block;
+}
+
+
+.image {
+  height: 35px;
+  width: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

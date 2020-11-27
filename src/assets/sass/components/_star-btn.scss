@@ -1,0 +1,19 @@
+.launch-icon {
+  cursor: pointer;
+  img {
+    height: 3rem;
+    width: auto;
+    border-radius: 6px;
+    border:1px solid transparent;
+  }
+
+  &:hover,
+  &:focus {
+    img {
+      transform: scale(1.2);
+      
+      border:1px solid $color-white;
+    }
+    outline: none;
+  }
+}
